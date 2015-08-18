@@ -5,8 +5,8 @@ int main (void)
   {
     int a,b,c;
     char op;
- printf("recibir a,b, operacion: A.suma B.Resta C.Multiplicacion D.division");
- scanf("%d %d %c",&a,&b,&op);
+    printf("recibir a,b, operacion:\n A.suma \nB.Resta \nC.Multiplicacion \nD.division");
+    scanf("%d %d %c",&a,&b,&op);
 
     switch(op)
     {
